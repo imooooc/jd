@@ -38,10 +38,11 @@ export default {
 }
 
 .docker{
-  background-color: green;
+  background-color: #f5f5f5;
   display: flex;
   flex-direction: row;
-  position: absolute;
+  position: fixed;
+  bottom: 0;
 
   left:0;
   width: 100%;
@@ -56,7 +57,7 @@ export default {
     text-align: center;
     // border: 1px solid red;
     &__icon{
-      color: orange;
+      color: tomato;
       font-size: 22px;
     }
     &__text{
