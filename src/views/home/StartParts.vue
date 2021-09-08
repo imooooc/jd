@@ -8,7 +8,7 @@
         <input type="text" class="search__input iconfont" size="35" placeholder="&#xe606;&nbsp;&nbsp;山姆会员商店优惠商品">
     </div>
     <div class="banner">
-        <img src="../assets/banner.jpeg" alt="">
+        <img src="../../assets/banner.jpeg" alt="">
     </div>
     <div class="category">
         <div class="category__item" v-for="(item, index) in category_list" :key="index">
@@ -38,45 +38,45 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 
 // @import '../css/mixin.scss';
-@import '../css/index.scss';
+@import '../../css/index.scss';
 .position{
-    padding: .18rem .18rem 0;
+    padding: 0.18rem 0.18rem 0;
     @include ellipsis;
-    font-size:.16rem;
+    font-size:0.16rem;
     &__icon{
-        font-size: .18rem;
+        font-size: 0.18rem;
     }
     &__content{
         display: inline;
     }
     &__notice{
-        font-size: .18rem;
+        font-size: 0.18rem;
         position: absolute;
-        right:.1rem;
+        right:0.1rem;
     }
 }
 .search{
     box-sizing: border-box;
     width: 100%;
-    padding: 0 .18rem;
-    margin-top:.2rem;
+    padding: 0 0.18rem;
+    margin-top:0.2rem;
     border-radius: 25%;
     &__input{
         box-sizing: border-box;
-        font-size: .14rem;
-        padding:.05rem;
+        font-size: 0.14rem;
+        padding:0.05rem;
         width:100%;
         background-color: #f5f5f5;
-        border-radius: .16rem;
+        border-radius: 0.16rem;
     }
 }
 .banner{
     box-sizing: border-box;
     width: 100%;
-    padding: .18rem;
+    padding: 0.18rem;
     img{
         width: 100%;
     }
@@ -84,19 +84,19 @@ export default {
 .category{
     box-sizing: border-box;
     width: 100%;
-    padding: .18rem;
+    padding: 0.18rem;
     // background: red;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    border-bottom: .15rem solid #f5f5f5;
+    border-bottom: 0.15rem solid #f5f5f5;
     &__item{
         box-sizing: border-box;
-        width: .6rem;
-        height: .6rem;
+        width: 0.6rem;
+        height: 0.6rem;
         // background-color: orange;
         // border: 1px solid black;
-        margin-bottom: .1rem;
+        margin-bottom: 0.1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -108,7 +108,7 @@ export default {
         }
         .desc{
             text-align: center;
-            margin-top:.1rem;
+            margin-top:0.1rem;
         }
     }
 }

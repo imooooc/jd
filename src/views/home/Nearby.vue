@@ -57,47 +57,48 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../css/variable.scss';
+
+@import '../../css/variable.scss';
 .nearby {
     box-sizing: border-box;
-    padding: .18rem;
+    padding: 0.18rem;
   &__title {
-    margin: .16rem 0 .02rem 0;
-    font-size: .18rem;
+    margin: 0.16rem 0 0.02rem 0;
+    font-size: 0.18rem;
     font-weight: normal;
     color: $content-fontcolor;
   }
   &__item {
     display: flex;
-    padding-top: .12rem;
+    padding-top: 0.12rem;
     &__img {
-      margin-right: .16rem;
-      width: .56rem;
-      height: .56rem;
+      margin-right: 0.16rem;
+      width: 0.56rem;
+      height: 0.56rem;
     }
   }
   &__content {
     flex: 1;
-    padding-bottom: .12rem;
+    padding-bottom: 0.12rem;
     border-bottom: 1px solid $content-bgColor;
     &__title {
-      line-height: .22rem;
-      font-size: .16rem;
+      line-height: 0.22rem;
+      font-size: 0.16rem;
       color: $content-fontcolor;
     }
     &__tags {
-      margin-top: .08rem;
-      line-height: .18rem;
-      font-size: .13rem;
+      margin-top: 0.08rem;
+      line-height: 0.18rem;
+      font-size: 0.13rem;
       color: $content-fontcolor;
     }
     &__tag {
-      margin-right: .16rem;
+      margin-right: 0.16rem;
     }
     &__highlight {
-      margin: .08rem 0 0 0;
-      line-height: .18rem;
-      font-size: .13rem;
+      margin: 0.08rem 0 0 0;
+      line-height: 0.18rem;
+      font-size: 0.13rem;
       color: #E93B3B;
     }
   }

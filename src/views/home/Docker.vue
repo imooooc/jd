@@ -1,6 +1,6 @@
 <template>
   <div class="docker">
-    <div class="docker__tab" v-for="(tab, index) in tabList" :key=index >
+    <div class="docker__tab" v-for="(tab, index) in tabList" :key=index>
       <div class="docker__tab__icon  iconfont" v-html="tab.icon"></div>
       <div class="docker__tab__text">{{tab.text}}</div>
     </div>
@@ -30,8 +30,8 @@ export default {
   }
 }
 </script>
-<style lang="scss">
-@import '../css/index.scss';
+<style lang="scss" scoped>
+@import '../../css/iconfont.scss';
 *{
     margin:0;
   padding:0;
